@@ -1,3 +1,9 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -21,13 +27,39 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-.env
-.DS_Store
-*.db
-*.sqlite
-instance/
+
+# Testing
 .pytest_cache/
 .coverage
-.idea/
+htmlcov/
+
+# IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads
 uploads/
+downloads/
+instagram_session.json
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build
+dist/
+build/
