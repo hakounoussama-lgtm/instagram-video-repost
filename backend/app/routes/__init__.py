@@ -1,0 +1,1 @@
+from app.routes.auth import auth_bp\nfrom app.routes.user import user_bp\nfrom app.routes.repost import repost_bp\nfrom app.routes.stats import stats_bp\nfrom app.routes.instagram import instagram_bp\n\n__all__ = ['auth_bp', 'user_bp', 'repost_bp', 'stats_bp', 'instagram_bp']\n"
